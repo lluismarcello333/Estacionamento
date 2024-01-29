@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Estacionamento</title>
+  </head>
+  <body>
+    <div class="init">
+      <h1 class="init_title">Seja bem vindo ao Estacionamento do Tião</h1>
+      <input
+        type="text"
+        id="nome"
+        placeholder="Digite o nome do veículo: "
+        autocomplete="off"
+      />
+      <input
+        type="text"
+        id="placa"
+        placeholder="Digite a placa do veículo: "
+        autocomplete="off"
+      />
+      <button id="cadastrar">Cadastrar</button>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Placa</th>
+          <th>Entrada</th>
+          <th>Checkout</th>
+        </tr>
+      </thead>
+      <tbody id="patio"></tbody>
+    </table>
+    <script src="script.js"></script>
+  </body>
+</html>

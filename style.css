@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #aabeab;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  .init {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50vh;
+    background-color: #ddd;
+    border-radius: 10px;
+    padding: 50px;
+    width: 600px;
+    height: 200px;
+    margin-bottom: 100px;
+    box-shadow: 14px 9px 24px -2px rgba(0,0,0,0.76);
+    -webkit-box-shadow: 14px 9px 24px -2px rgba(0,0,0,0.76);
+    -moz-box-shadow: 14px 9px 24px -2px rgba(0,0,0,0.76);
+  }
+
+  .init_title {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-bottom: 30px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 50%;
+    font-family: Arial, sans-serif;
+    border-radius: 8px; 
+    overflow: hidden; 
+  }
+  
+  table th,
+  table td {
+    padding: 12px;
+    padding-left: 60px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; 
+  }
+  
+  table th {
+    background-color: #4CAF50; 
+    color: #fff; 
+  }
+  
+  table td {
+    background-color: #f9f9f9; 
+  }
+  
+  table td:hover {
+    background-color: #f0f0f0;
+    transition: background-color 0.5s ease;
+  }
+
+  button {
+    background-color: #4CAF50;
+    border: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  input[type="text"] {
+    width: 400px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="date"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .delete {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .delete:hover {
+    background-color: #d32f2f;
+  }
+  
