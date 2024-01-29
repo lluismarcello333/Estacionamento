@@ -14,7 +14,9 @@ O projeto é composto por três arquivos principais:
 
 * style.css: Este arquivo contém a estilização CSS da aplicação, incluindo a aparência da página e da tabela.
 
-* script.js: Este arquivo contém o código JavaScript responsável pela interatividade da aplicação, incluindo a lógica para cadastrar novos veículos e exibir os registros na tabela.
+* script.js: Este arquivo é uma versão JavaScript do arquivo script.ts, contendo a mesma lógica de interatividade da aplicação, após a compilação do projeto.
+
+* script.ts: Este arquivo contém o código TypeScript responsável pela interatividade da aplicação, incluindo a lógica para cadastrar novos veículos e exibir os registros na tabela.
 
 ## Configuração e Execução
 Para executar o projeto localmente, siga estas etapas:
